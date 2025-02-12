@@ -31,7 +31,7 @@ O SAP-1 é um computador básico projetado para fins educacionais, auxiliando no
 ## 📚 Referências
 - Albert Paul Malvino - Digital Computer Electronics
 - Documentação do software Digital: [hneemann/Digital](https://github.com/hneemann/Digital)
-- Fred - [SAP-1A - Projeto do meu professor](https://github.com/fredcwbr/sap-1A)
+- Frederico C Wilhelms - [SAP-1A - Projeto do meu professor](https://github.com/fredcwbr/sap-1A)
 
 ## 📝 Autor
 Projeto desenvolvido por [Freuks](https://github.com/Freuks).
