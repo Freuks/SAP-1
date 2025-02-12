@@ -1,0 +1,25 @@
+ULAprincipal OK
+sapULA0 OK
+idcount OK
+Flip Flop tipo D OK
+flip_flop_jk OK
+regis8bits OK
+regisMainBUs OK
+pc5bits = pc5bitsLatest OK
+sap1Contro OK
+
+LUT - É UMA TABELA QUE MOSTRA OQ FAZER COM DETERMINADAS INTRUÇOES, ONDE ELA ATIVA SINAIS DE CONTROLE, TEM COMO EU ADICIONAR UM ARQUIVO EM HEXADECIMAL NELA QUE DEIXA POSSIVEL MODIFICAR INSTRUÇÕES, TRABALAHNDO JUNTO COM O CONTROLADOR
+
+LOGICA DE ENTRADA E SAIDA COM SWITCHES - COMO SE FOSSE UM MANUAL DE DADOS, COMO PODEM VER TEM UMA PORTA AND COM IO, OU SEJA, SÓ SE EU TIVER UMA INSTRUÇÃO DE IO QUE EU CONSIGO ACIONAR ELA
+
+PCLOAD - TEM ESSAS PORTAS, TA VENDO QUE TEM O OR, SE QLQR UMA FOR 1 O PCLOAD É LIGADO, ONDE ESTA INTERLIGADO COM A ENTRADA DE DADOS DO BARRAMENTO PRA VC LITERALMENTE DAR UM JUMP, SE O JUMP FOR 1, ALTO QUER DIZER QUE EU POSSO PEGAR DADOS DO BARRAMENTO E JOGAR DENTRO DO MEU CONTADOR AI MEU CONTADOR N VAI FICAR 1,2,3,4,5 ELE PODE PULAR LITERALMENTE PARA ONDE ELE QUISER, PERMITINDO UMA MAIOR FLEXIBILIDADE
+
+AQUI ONDE TA APRECENDO 1,2,3,0 TODA VEZ QUE ACONTECESSE ISSO A INSTRUÇÃO É IMPLEMENTADA
+
+A conexão te todos os componentes foi bem desafiadora. A arquitetura pode até ser simples, mas qualquer errinho nos sinais ou conexões bagunça todo o circuito.
+
+A sincronização dos sinais de controle foi bem difícil. Tudo precisa acontecer no tempo certo, desde o contador, a memória, os registradores...
+
+Outra dificuldade foi lidar com erros de incompatibilidade de bits, especialmente nos casos em que dependiam de entradas, saídas ou barramentos. Esses detalhes deram muito trabalho, porque se os tamanhos ou os sinais não estavam corretos, o circuito simplesmente não funcionava.
+
+
